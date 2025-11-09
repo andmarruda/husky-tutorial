@@ -16,6 +16,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
+    "lint": "eslint . --ext .ts",
     "postinstall": "node ./init-husky.js",
     "prepare": "husky"
   },
